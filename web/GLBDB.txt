@@ -1,0 +1,75 @@
+create table account
+(
+	accno varchar(20),
+	cusname varchar(20),
+	cusfname varchar(20),
+	dob varchar(20),
+	gender varchar(20),
+	accopdate varchar(20),
+	address varchar(20),
+	contactno int
+);
+
+create table account
+(
+	accno varchar(20),
+	cusname varchar(20),
+	cusfname varchar(20),
+	dob varchar(20),
+	gender varchar(20),
+	accopdate varchar(20),
+	address varchar(20),
+	contactno int,
+        role varchar(20),
+        password varchar(20),
+        sques varchar(20),
+        sans varchar(20)
+);
+
+
+
+insert into account values('A001','ADMIN','FADMIN','01.01.2000','MALE','01.04.2023','JABALPUR',12345,'ADMIN','123','BirthPlace','INDIA');
+
+
+create table transactionbank(accountno varchar(20),ref varchar(20),dotrans varchar(20),transid varchar(20),depamount int,wdrwamount int,netbal int);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+insert into student values(02,'Dipika',21,'Female','BCA',45000);
+
+insert into student values(03,'Anjana',22,'Female','BTECH',75000);
+
+insert into student values(04,'Vipin',19,'Male','BBA',44000);
+
+insert into student values(05,'Deepak',18,'Male','BTECH',75000);
